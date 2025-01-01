@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from '../assets/Hero.png'
+import hero from '../assets/Abd.jpeg'
 import facebook from '../assets/facebook.png'
 import twitter from '../assets/twitter.png'
 import instagram from '../assets/instagram.png'
@@ -20,7 +20,7 @@ const Hero = () => {
                <button className='bg-black text-white px-3 py-2 w-max rounded-md'><a href="https://drive.google.com/file/d/1ufFKGigemA2usgG0jlNGALW8H7zPENaq/view?usp=sharing" download target='_blank'>Download CV</a></button>
             </div>
             <div className='md:w-1/2 relative flex justify-center items-end'>
-                 
+                 <img src={hero} alt="" className="w-35 h-35 sm:w-40 sm:h-40 md:w-40 md:h-40 lg:w-60 lg:h-60 rounded-full object-cover" />
                  <img src={reactLogo} alt="" className='absolute w-10 top-36 left-0 rounded-full md:hidden'/>
                  <img src={reduxLogo} alt="" className='absolute w-10 top-0 right-5 md:hidden'/>
                  <img src={tailwind} alt="" className='absolute w-10 rounded-full right-0 bottom-36 md:hidden'/>
