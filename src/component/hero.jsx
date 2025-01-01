@@ -20,7 +20,7 @@ const Hero = () => {
                <button className='bg-black text-white px-3 py-2 w-max rounded-md'><a href="https://drive.google.com/file/d/1ufFKGigemA2usgG0jlNGALW8H7zPENaq/view?usp=sharing" download target='_blank'>Download CV</a></button>
             </div>
             <div className='md:w-1/2 relative flex justify-center items-end'>
-                 <img src={hero} alt="" className='lg:h-[90vh] h-96' />
+                 
                  <img src={reactLogo} alt="" className='absolute w-10 top-36 left-0 rounded-full md:hidden'/>
                  <img src={reduxLogo} alt="" className='absolute w-10 top-0 right-5 md:hidden'/>
                  <img src={tailwind} alt="" className='absolute w-10 rounded-full right-0 bottom-36 md:hidden'/>
