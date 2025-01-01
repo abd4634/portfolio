@@ -27,11 +27,19 @@ const Hero = () => {
             </div>
         </div>
       </div>
-      <div className='absolute top-40 right-10 hidden bg-gray-200 p-4 md:flex flex-col gap-6 rounded-full'> 
+      <div className='absolute top-40 right-10 hidden bg-gray-200 p-4 md:flex flex-col gap-6 rounded-full'>
+      <a href="https://www.facebook.com/abdabdullah11/" target="_blank" rel="noopener noreferrer">
         <img src={facebook} alt="" className='w-20'/>
+      </a> 
+      <a href="https://www.instagram.com/i_am_abd_" target="_blank" rel="noopener noreferrer">
         <img src={instagram} alt="" className='w-20'/>
+      </a>  
+      <a href="https://x.com/i_am_abd_" target="_blank" rel="noopener noreferrer">
         <img src={twitter} alt="" className='w-20'/>
+      </a>
+      <a href="https://www.linkedin.com/in/i-am-abd/" target="_blank" rel="noopener noreferrer">
         <img src={linkedin} alt="" className='w-20'/>
+      </a>
       </div>
     </section>
   )
