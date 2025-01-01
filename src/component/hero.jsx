@@ -14,7 +14,7 @@ const Hero = () => {
       <div className='max-w-7xl mx-auto'>
         <div className='flex flex-col md:flex-row items-center lg:h-[90vh] justify-between' >
             <div className='md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-6 lg:px-0 lg:mt-0 mt-10'>
-               <h1 className='lg:text-7xl text-4xl font-bold lg:leading-snug'>Hi There, <br />I'm ABD <span className='text-red-500'>ULLAH</span></h1>
+               <h1 className='lg:text-7xl text-4xl font-bold lg:leading-snug'>Hi There, <br />I'm ABD<span className='text-red-500'>ULLAH</span></h1>
                <p className='md:text-2xl text-xl mb-4'>Web Developer & Designer</p>
                <p className='mb-4'>I specialize in creating user-friendly and dynamic web applications. With a strong foundation in modern web technologies, I bring ideas to life using React.js, ensuring seamless performance and intuitive user experiences.</p>
                <button className='bg-black text-white px-3 py-2 w-max rounded-md'><a href="https://drive.google.com/file/d/1ufFKGigemA2usgG0jlNGALW8H7zPENaq/view?usp=sharing" download target='_blank'>Download CV</a></button>
