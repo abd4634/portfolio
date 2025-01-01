@@ -6,7 +6,7 @@ import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
 import reactLogo from '../assets/React.png'
 import reduxLogo from '../assets/Redux.png'
-import tailwind from '../assets/Tailwind Css.png'
+import tailwind from '../assets/Tailwind.png'
 
 const Hero = () => {
   return (
