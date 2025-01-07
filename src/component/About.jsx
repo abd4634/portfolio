@@ -10,7 +10,7 @@ import Bootstrap from '../assets/Bootstrap.png'
 import NodeLogo from '../assets/NodeLogo.png'
 import Mongodb from '../assets/mongodb.svg'
 import Express from '../assets/Express.png'
-import NextJs from '../assets/NextJs.png'
+import NextJs from '../assets/Wordpress-Logo.png'
 
 const About = () => {
     return (
@@ -81,7 +81,7 @@ const About = () => {
                                     </div>
                                     <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
                                         <img src={NextJs} alt="" className='w-9' />
-                                        <span className='font-semibold'>Next Js</span>
+                                        <span className='font-semibold'>Wordpress</span>
                                     </div>
                                 </div>
                             </div>
