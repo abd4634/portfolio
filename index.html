@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abd Portfolio</title>
     <meta name="google-site-verification" content="WPa0p6JsP9CjaGLK8iduNIIo2isZ9of-g3Y28sQJxZw" />
+    
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LfZELgqAAAAAC4tD3KYT-qsH_ecTuxAllkQHL_Q"></script>
+
   </head>
   <body>
     <div id="root"></div>
@@ -17,6 +20,14 @@
       gtag('js', new Date());
 
       gtag('config', 'G-1QCJE8G11H');
+    </script>
+    <script>
+      function onClick(e) {
+        e.preventDefault();
+        grecaptcha.enterprise.ready(async () => {
+          const token = await grecaptcha.enterprise.execute('6LfZELgqAAAAAC4tD3KYT-qsH_ecTuxAllkQHL_Q', {action: 'LOGIN'});
+        });
+      }
     </script>
   </body>
 </html>
