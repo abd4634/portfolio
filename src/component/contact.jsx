@@ -16,6 +16,16 @@ const Contact = () => {
             method: "POST",
             body: formData
         
+        })
+        .then((response) => {
+          if (response.ok) {
+            alert('Form submitted successfully!');
+          } else {
+            alert('Failed to submit the form.');
+          }
+        })
+        .catch(() => {
+          alert('An error occurred. Please try again.');
         });
     }
   return (
